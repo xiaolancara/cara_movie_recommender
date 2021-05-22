@@ -6,4 +6,4 @@ numpy==1.19.2
 django_storages==1.11.1
 scikit_learn==0.24.2
 surprise==0.1
-gunicorn
+gunicorn==20.0.4

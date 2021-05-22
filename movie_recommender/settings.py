@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&^7xf$l3i%bfarx=$!o^e&^$vcgov0htf+92i&9_f)ragf_yx2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['caramovie.herokuapp.com','127.0.0.1']
 
