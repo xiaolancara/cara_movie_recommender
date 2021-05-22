@@ -1,6 +1,7 @@
-numpy==1.19.2
+django_heroku==0.3.1
 Django==3.0.8
 scikit_surprise==1.1.1
+numpy==1.19.2
 pandas==1.2.4
 django_storages==1.11.1
 scikit_learn==0.24.2
