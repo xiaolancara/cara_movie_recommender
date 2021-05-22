@@ -1,4 +1,0 @@
-.idea
-recommend/algorithm/
-settings.json
-*.pyc
