@@ -1,0 +1,40 @@
+{% extends 'recommend/base.html'%}
+{% block body %}
+
+{% if not request.user.is_authenticated %}
+    <br>
+{% else %}
+    <center style="color:#fff"><h2>Hi, {{user.username}} :) </h2></center>
+{% endif %}
+
+
+<p style="text-align:left;">
+    <span style="float:right;">
+        <a href="{% url 'recommend' %}" class="btn"><button style="color:#fff;background-color:black;padding:10px;border-radius: 20px">You Might Like</button></a>
+    <h2>Movie List</h2>
+    </span>
+</p>
+<hr>
+<br>
+
+<!-- Movie list -->
+    <div class="row" >
+            {% if movies %}
+            {% for movie in movies %}
+                <div class="col-sm-2 col-md-2">
+                    <div class="thumbnail" style="border-radius: 20px;">
+                        <center><h4>{{movie.title}}</h4></center>
+                        <a href="{% url 'detail' movie.id %}">
+                            <img src="{{ movie.movie_logo.url}}" class="img-responsive" style="border-radius: 25% 10%;">
+                        </a>
+                         <center><h5>{{movie.genre}}</h5></center>
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+        </div>
+
+</div>
+
+
+{% endblock %}
