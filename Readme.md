@@ -23,7 +23,7 @@ https://caramovie.herokuapp.com/
 
 The system will choose either one based on the lower RMSE predict score
 
-Recommend movies based on predicting rating, see guidline in [Algorithm- Item_based & SVD.ipynb](https://github.com/xiaolancara/Recommender-System/blob/main/movie_recommender-system/Algorithm-%20Item_based%20%26%20SVD.ipynb)
+Recommend movies based on predicting rating, see guidline in [Algorithm- Item_based & SVD.ipynb](https://github.com/xiaolancara/cara_movie_recommender/blob/main/Algorithm-%20Item_based%20%26%20SVD.ipynb)
 ![image](https://user-images.githubusercontent.com/63172262/115623356-ef22a880-a2ad-11eb-970b-7bcde6f8f7ec.png)
 
 ## Function
