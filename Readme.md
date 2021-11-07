@@ -1,6 +1,10 @@
 # Item and SVD based movie recommender system using Django frame
 Language: python, html, css, javascript
 
+
+![home](https://github.com/xiaolancara/cara_movie_recommender/blob/main/website%20page/Home%20page.JPG)
+![detail](https://github.com/xiaolancara/cara_movie_recommender/blob/main/website%20page/Detail%20page.JPG)
+![recommend](https://github.com/xiaolancara/cara_movie_recommender/blob/main/website%20page/Recommend%20page.JPG)
 ## Installation
 
 >pip install -r requirements.txt
